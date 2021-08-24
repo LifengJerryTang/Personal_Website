@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, "Times New Roman", serif;
+}
+
+.navbar-dark {
+    background-color: #1ba8f0; !important;
+    color: floralwhite;
+}
+
+.nav-item-right {
+    text-align: right;
+}
+.jumbotron {
+    background: lightskyblue;
+    padding: 80px 3% 3% 3%;
+    color: floralwhite;
+}
+
+.navbar-brand img {
+    margin-left: 1rem;
+}
+
+#personal-intro {
+    display: inline-block;
+    width: 60%;
+}
+
+#contact-me-button {
+    display: inline-block;
+    width: 39%;
+}
+
+#contact-me-button img {
+    display: block;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+#contact-me-button button{
+    display: block;
+    margin-left: 31%;
+}
