@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+
         <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="img/profile-pic.png" alt="Profile Picture" width="40" height="40">
@@ -16,13 +17,13 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto align-self-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#aboutme-section">
                             <span class="fa fa-info"></span>
                             About Me
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#education">
                             <span class="fa fa-book"></span>
                             Education
                         </a>
@@ -58,5 +59,94 @@
                 </div>
             </div>
         </header>
+        <section id="aboutme-section" class="container-fluid">
+            <div id="detailed-intro">
+                <h2><span class="badge bg-primary">About Me</span></h2>
+                <p>Hello, my name is Jerry. I enjoy computer science and programming. I am from my home town.
+                    I am currently attending a University that focuses on engineering,
+                    and I am really enjoying my experiences.</p>
+                <p style="color: cyan"> I am also currently
+                    interning at a company and I am mostly doing work involving Android development and front-end
+                    development using Angular.</p>
+                <p>However, I am fairly new to the design aspect of web development, and
+                    I believe getting proficient at CSS and HTML will enhance my ability in web development.</p>
+            </div>
+            <div id="profile-detailed-intro" class="card bg-light">
+                <img class="img-fluid"
+                     src="img/profile-pic.png" alt="Profile Picture" width="300" height="300">
+            </div>
+        </section>
+        <hr>
+        <section id="education">
+            <h2><span class="badge bg-success">Education</span></h2>
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/universtiy.jpg" class="img-fluid rounded-start" alt="University Picture">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">The Best University</h5>
+                            <p class="card-text"> I am currently attending The Best University, and I am a rising
+                            senior.</p>
+                            <p class="card-text">I am very involved on campus. I am currently on the Android
+                            development club, the robotics club, and the ultimate frisbee intramural club.</p>
+                            <p class="card-text"><small class="text-muted">Interested in studying here?
+                                CLICK HERE!</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="experience">
+            <h2><span class="badge bg-warning">Experience</span></h2>
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="active">
+                        <i class="fa fa-code"></i> Code
+                    </div>
+                    <div>
+                        <i class="fa fa-pencil-square"></i> About
+                    </div>
+                    <div>
+                        <i class="fa fa-bar-chart"></i> Services
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i> Contact
+                    </div>
+                </div>
+                <div class="tab-indicator"></div>
+                <div class="tab-content">
+
+                    <div class="active">
+                        <i class="fa fa-code"></i>
+                        <h2>This is code section</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-pencil-square"></i>
+                        <h2>This is about section</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-bar-chart"></i>
+                        <h2>This is services section</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <h2>This is contact section</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <script src="js/main.js"></script>
     </body>
 </html>
