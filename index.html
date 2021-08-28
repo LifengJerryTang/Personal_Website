@@ -12,7 +12,7 @@
 
         <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <a class="navbar-brand" href="#">
-                <img src="img/profile-pic.png" alt="Profile Picture" width="40" height="40">
+                <img src="img/profile-rounded.png" alt="Profile Picture" width="40" height="40">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto align-self-center">
@@ -29,13 +29,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">
+                        <a class="nav-link" href="#experience">
                             <span class="fa fa-briefcase"></span>
                             Experience
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">
+                        <a class="nav-link" href="#contactme">
                             <span class="fa fa-address-card fa-lg"></span>
                             Contact Me
                         </a>
@@ -54,7 +54,7 @@
                         I am always excited about learning new technologies and developing new software</p>
                 </div>
                 <div id="contact-me-button">
-                    <img src="img/profile-pic.png" alt="Profile Picture" width="200" height="200">
+                    <img src="img/profile-rounded.png" alt="Profile Picture" width="200" height="200">
                     <button class="btn btn-outline-light">Contact Me</button>
                 </div>
             </div>
@@ -62,18 +62,26 @@
         <section id="aboutme-section" class="container-fluid">
             <div id="detailed-intro">
                 <h2><span class="badge bg-primary">About Me</span></h2>
-                <p>Hello, my name is Jerry. I enjoy computer science and programming. I am from my home town.
-                    I am currently attending a University that focuses on engineering,
-                    and I am really enjoying my experiences.</p>
-                <p style="color: cyan"> I am also currently
-                    interning at a company and I am mostly doing work involving Android development and front-end
-                    development using Angular.</p>
-                <p>However, I am fairly new to the design aspect of web development, and
-                    I believe getting proficient at CSS and HTML will enhance my ability in web development.</p>
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <p class="card-text">Hello, my name is Jerry. I enjoy computer science and programming.
+                            I am from a city in a state.
+                            I have been living in my city for the past 10 years, and I have been living there very comfortably.
+                            Want to learn more about my city? Click <a href="hometown-info.html">here</a>.
+                        </p>
+                        <p class="card-text"> I am currently attending a University that focuses on engineering,
+                            and I am really enjoying my experiences.</p>
+                        <p class="card-text"> I am also currently
+                            interning at a company and I am mostly doing work involving Android development and front-end
+                            development using Angular.</p>
+                        <p class="card-text">However, I am fairly new to the design aspect of web development, and
+                            I believe getting proficient at CSS and HTML will enhance my ability in web development.</p>
+                    </div>
+                </div>
             </div>
             <div id="profile-detailed-intro" class="card bg-light">
                 <img class="img-fluid"
-                     src="img/profile-pic.png" alt="Profile Picture" width="300" height="300">
+                     src="img/profile.png" alt="Profile Picture" width="300" height="300">
             </div>
         </section>
         <hr>
@@ -82,17 +90,18 @@
             <div class="card">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="img/universtiy.jpg" class="img-fluid rounded-start" alt="University Picture">
+                        <img src="img/university.jpg" class="img-fluid rounded-start" alt="University Picture">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
+                            <i class="fa fa-book"></i>
                             <h5 class="card-title">The Best University</h5>
                             <p class="card-text"> I am currently attending The Best University, and I am a rising
                             senior.</p>
                             <p class="card-text">I am very involved on campus. I am currently on the Android
                             development club, the robotics club, and the ultimate frisbee intramural club.</p>
                             <p class="card-text"><small class="text-muted">Interested in studying here?
-                                CLICK HERE!</small></p>
+                                <a href="#">CLICK HERE!</a></small></p>
                         </div>
                     </div>
                 </div>
@@ -117,26 +126,53 @@
                 <div class="tab-content">
 
                     <div class="active">
-                        <i class="fa fa fa-briefcase"></i>
-                        <h2>Company 1</h2>
+                        <i class="fa fa-briefcase"></i>
+                        <h5>Software Engineer Intern <strong>@ Company 1</strong></h5>
+                        <p><em>June 2021 - Present</em></p>
+                        <ul class="job-description">
+                            <li>Building a software</li>
+                            <li>Building another software</li>
+                        </ul>
                     </div>
 
-                    <div>
+                    <div >
                         <i class="fa fa-briefcase"></i>
-                        <h2>Company 2</h2>
-                        <p></p>
+                        <h5>Software Engineer Intern <strong>@ Company 2</strong></h5>
+                        <p><em>Jan 2021 - May 2021</em></p>
+                        <ul class="job-description">
+                            <li>Built a software</li>
+                            <li>Built another software</li>
+                        </ul>
                     </div>
 
-                    <div>
+                    <div class="job-description">
                         <i class="fa fa-briefcase"></i>
-                        <h2>Company 3</h2>
-                        <p></p>
+                        <h5>Teaching Assistant at <strong>@ Company 3</strong></h5>
+                        <p><em>Aug 2018 - May 2019</em></p>
+                        <ul class="job-description">
+                            <li>Helped students with homework.</li>
+                        </ul>
                     </div>
 
                 </div>
             </div>
+        </section>
+
+        <section id="contactme">
+            <div class="get-in-touch">
+                <h2><span class="badge bg-info">What's Next?</span></h2>
+                <h1>Let's Get in Touch!</h1>
+                <a type="button" class="btn btn-outline-dark" href="contact_me_form.html">Contact Me</a>
+            </div>
 
         </section>
+        <footer>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>Designed and Built by Jerry</p>
+                </div>
+            </div>
+        </footer>
         <script src="js/main.js"></script>
     </body>
 </html>
