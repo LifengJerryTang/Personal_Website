@@ -39,9 +39,10 @@ body {
     margin-left: 20%;
 }
 
-#contact-me-button button{
+#contact-me-button a{
     display: block;
-    margin-left: 31%;
+    margin-left: 27%;
+    width: 25%;
 }
 
 #detailed-intro {
@@ -188,4 +189,36 @@ footer {
     background-color: lightskyblue;
     margin-top: 10%;
     padding: 20px 0;
+}
+
+.carousel {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    border: 2px #00acee solid;
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+    color: white;
+    position: relative;
+}
+
+.carousel-caption {
+   font-weight: bolder;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active {
+    background-color: #444;
 }
