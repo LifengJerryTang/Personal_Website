@@ -15,8 +15,10 @@ body {
 }
 .jumbotron {
     background: lightskyblue;
-    padding: 80px 3% 3% 3%;
     color: floralwhite;
+    padding: 100px 30px 70px 30px;
+    margin-bottom: 5%;
+
 }
 
 .navbar-brand img {
@@ -24,44 +26,47 @@ body {
 }
 
 #personal-intro {
-    display: inline-block;
-    width: 60%;
+    margin-left: 5%;
 }
 
-#contact-me-button {
-    display: inline-block;
-    width: 39%;
-}
+/*#contact-me-button {*/
+/*    width: 39%;*/
+/*}*/
 
 #contact-me-button img {
-    display: block;
     margin-bottom: 5%;
     margin-left: 20%;
 }
 
 #contact-me-button a{
-    display: block;
-    margin-left: 27%;
-    width: 25%;
+    /*display: block;*/
+    /*margin-left: 25%;*/
+    margin-left: 10%;
 }
 
 #detailed-intro {
-    display: inline-block;
-    width: 30%;
-    float: left;
+    /*display: inline-block;*/
+    /*width: 30%;*/
     margin-left: 20%;
     margin-bottom: 3%;
 
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 #profile-detailed-intro {
-    display: inline-block;
-    width: 40%;
+    /*display: inline-block;*/
+    /*width: 40%;*/
     margin-left: 10%;
-    max-width: 300px;
     margin-top: 3%;
 }
 
+#profile-detailed-intro img {
+    border: 1px #00acee solid;
+    border-radius: 3px;
+}
 section {
     margin: 3% 3% 3% 3%
 }
@@ -114,6 +119,7 @@ hr {
     position:relative;
     height:100%;
     overflow:hidden;
+    padding-left: 5%;
 }
 .tabs .tab-content > div > i {
     display:inline-block;
@@ -221,4 +227,18 @@ footer {
 
 .carousel-indicators .active {
     background-color: #444;
+}
+
+@media only screen and (max-width: 750px) {
+    #detailed-intro {
+        width: 60%;
+    }
+    #profile-detailed-intro {
+        width: 60%;
+    }
+
+    .jumbotron {
+        padding-right: 0;
+        margin-right: 0;
+    }
 }
